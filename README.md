@@ -1,15 +1,12 @@
 # liri-node-app
 
+The LIRI node app takes the user's command line arguments and returns song, movie or concert data based on the user's input. 
 
-==========================================================================================
-## SPOTIFY
-node liri.js spotify-this-song '<song name here>'...
-This will show the following information about the song in your terminal/bash window:
-    Artist(s)
-    The song's name
-    A preview link of the song from Spotify
-    The album that the song is from
-
-If no song is provided then the program will default to "The Sign" by Ace of Base.
-
-==========================================================================================
+How to use:
+* Download repository
+* Using terminal/git-bash, navigate to the directory where the repository is installed
+* run npm install
+* In the command line, enter "node liri.js" followed by:
+                * "concert-this" + <artist name>
+                * "spotify-this-song" + <song name>
+                * "movie-this" + <movie title>
